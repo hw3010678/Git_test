@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		39C3E11B1BD92E76006D9A66 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 39C3E11A1BD92E76006D9A66 /* main.m */; };
+		39C3E1231BD9313F006D9A66 /* Student.m in Sources */ = {isa = PBXBuildFile; fileRef = 39C3E1221BD9313F006D9A66 /* Student.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,8 @@
 /* Begin PBXFileReference section */
 		39C3E1171BD92E76006D9A66 /* Git_test */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Git_test; sourceTree = BUILT_PRODUCTS_DIR; };
 		39C3E11A1BD92E76006D9A66 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		39C3E1211BD9313F006D9A66 /* Student.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Student.h; path = Git_test/Student.h; sourceTree = "<group>"; };
+		39C3E1221BD9313F006D9A66 /* Student.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Student.m; path = Git_test/Student.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +44,8 @@
 		39C3E10E1BD92E76006D9A66 = {
 			isa = PBXGroup;
 			children = (
+				39C3E1211BD9313F006D9A66 /* Student.h */,
+				39C3E1221BD9313F006D9A66 /* Student.m */,
 				39C3E1191BD92E76006D9A66 /* Git_test */,
 				39C3E1181BD92E76006D9A66 /* Products */,
 			);
@@ -119,6 +124,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				39C3E11B1BD92E76006D9A66 /* main.m in Sources */,
+				39C3E1231BD9313F006D9A66 /* Student.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
