@@ -12,6 +12,7 @@
 
 - (void) showName{
     NSLog(@"%@",_name);
+    //commit;
 }
 
 @end
